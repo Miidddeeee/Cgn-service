@@ -6,21 +6,26 @@
     <title>CGN Janitorial Service</title>
     <link rel="stylesheet" href="css/main.css">
     <link href="img/favicon.png" rel="icon" type="image/x-icon">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 </head>
 <style>
-    
+
    .landingpage{
     background: -webkit-linear-gradient(rgba(8, 47, 109, 0.683), rgba(8, 47, 109, 0.683)), url("img/heroImage low quality.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
    }
+   .addPadding{
+    padding-top: 20%;
+    padding-bottom: 20%;
+   }
    
 </style>
 <body>
     <!-- landing page -->
     <!-- background -->
-    <section class="h-screen relative mx-auto landingpage border-b-yellow-600 border-b-8" id="">
+    <section class="h-screen md:h-full relative mx-auto landingpage border-b-yellow-600 border-b-8" id="">
         <!-- navbar    -->
    <nav class="w-11/12 mx-auto pt-2">
     <!-- flex items -->
@@ -47,9 +52,9 @@
         </div>
     </div>
    </nav>
-   <section class="flex-col w-11/12 mx-auto ">
+   <section class="addPadding mx-auto w-11/12 ">
 
-   <div class=" w-full lg:w-3/5 pt-40 text-center lg:text-left   ">
+   <div class=" w-full lg:w-3/5 text-center lg:text-left ">
     <div class="my-5 text-white font-semibold">
         <h1>Welcome to CGN Janitorial Service.</h1>
     </div>
@@ -72,11 +77,11 @@
                 <div class=" flex-col lg:flex space-y-8 mx-auto w-11/12 lg:w-2/4  ">
                     <div class=" flex-col">     
                         <h1 class="text-3xl font-black ">About Us</h1>
-                        <span class="text-3xl text-yellow-600 ">__________</span>
+                        <div class="border-b-yellow-600 border-b-4 w-16 h-4"></div>
                      </div>
              <!-- about us write up -->
                 <div class=" text-xl ">
-                    <p class="text-justify ">When it comes to cleaning services in Toronto and the GTA, CA, CGN Janitorial Service is a reputable name. We have a reputation for excellence because of our years of experience and love of cleanliness. Because we are experienced in the particular cleaning issues that the GTA and Toronto atmosphere present, we can guarantee a spotless outcome every time. For your home or place of business, our passionate staff takes pride in offering superior cleaning solutions, and we’re committed to making sure you’re satisfied. To provide outstanding service, we bring together cutting-edge methods, environmentally safe materials, and in-depth local knowledge.</p>
+                    <p class="text-justify ">When it comes to cleaning and painting services in Toronto and the GTA, CA, CGN Janitorial Service is a reputable name. We have a reputation for excellence because of our years of experience and love of cleanliness. Because we are experienced in the particular cleaning and painting issues that the GTA and Toronto atmosphere present, we can guarantee a spotless outcome every time. For your home or place of business, our passionate staff takes pride in offering superior cleaning solutions, and we’re committed to making sure you’re satisfied. To provide outstanding service, we bring together cutting-edge methods, environmentally safe materials, and in-depth local knowledge.</p>
                 </div>
                 <!-- visible on mobile -->
                 <div class=" block lg:hidden ">
@@ -88,7 +93,7 @@
                     <div class="flex-col space-y-4 w-3/4">
                         <div class="flex items-center">
                             <div class=" w-20 baseline">
-                                <img src="img/icon.svg" alt="">
+                                <img src="img/2nd icon.svg" alt="">
                             </div>
                         <div class="flex-col ">
                                 <div class=" font-black text-xl">
@@ -102,7 +107,7 @@
                 <!-- second list on about section -->
                         <div class="flex items-center">
                             <div class=" w-20 baseline">
-                                <i class="fa-solid fa-broom"></i>
+                                <img src="img/icon.svg" alt="">
                             </div>
                         <div class="flex-col">
                                 <div class=" font-black text-xl">
@@ -114,9 +119,9 @@
                         </div>
                         </div>
                     <!-- third list on about section -->
-                        <div class="flex items-center">
+                        <div class="flex items-center space-x-2">
                             <div class=" w-20 baseline">
-                                <img src="img/icon.svg" alt="">
+                                <img src="img/3rd icon.svg" alt="">
                             </div>
                         <div class="flex-col">
                                 <div class=" font-black text-xl">
@@ -136,8 +141,147 @@
                                     </div>
                                 </div>
     </section>
-                <section>
+    <!-- service page -->
+
+                <section class="w-11/12 mx-auto py-20">
+                    <div class="">
+                        <h1 class="text-4xl font-black">Services</h1>
+                            <div class="border-b-yellow-600 border-b-4 w-20 mt-3"></div> 
+                            <div class="w-full lg:w-2/5 mt-4">
+                                <p>Our janitorial services are designed to elevate your spaces, providing a spotless and welcoming environment for both residential and commercial clients.</p>
+                            </div>
+                    </div>
+                    
+                    <div class="flex- justify-center items-start w-11/12 md:w-11/12 mx-auto  space-y-3 md:space-y-0 md:flex md:space-x-20  md:mt-10">
+                        <div class="w-full  space-y-3 mt-10 md:mt-0 md:space-y-0" >
+                            <img class=" md:FULL md:mx-auto rounded-xl" src="img/services1.jpg" alt="">
+
+                                <h6 class="text-2xl font-bold md:pt-5">Regular Cleaning</h6>
+                                <div class="border-b-yellow-600 border-b-4 w-20 mt-3"></div>
+                                <p class="w-full text-justify ">
+                                    Here at CGN Janitorial Service, we offer a better environment for you and your family, and we can thoroughly clean your home for reasonable pricing.
+                                </p>
+
+                        </div>
+                        <div class="w-full  space-y-3 md:space-y-0" >
+                            <img class=" md:FULL md:mx-auto rounded-xl" src="img/services 2.jpg" alt="">
+                                <h6 class="text-2xl font-bold md:pt-5">Commercial Cleaning</h6>
+                                <div class="border-b-yellow-600 border-b-4 w-20 mt-3"></div>
+                                <p class="w-full text-justify ">
+                                    Here at CGN Janitorial Service, we do commercial cleaning services for you to provide a clean and healthy space for your clients and employees.</p>
+                                
+                        </div>
+                        <div class="w-full space-y-3 md:space-y-0" >
+                            <img class=" md:FULL md:mx-auto  rounded-xl" src="img/services 3.jpg" alt="">
+                                <h6 class="text-2xl font-bold md:pt-5">General Painting</h6>
+                                <div class="border-b-yellow-600 border-b-4 w-20 mt-3"></div>
+                                <p class="w-full text-justify ">
+                                    Here at CGN Janitorial, we are aware of how a new coat of paint can change a space. .</p>
+                                
+                        </div>
+                       
+                    </div>
+                    <div class="class w11/12 mt-10 mx-auto flex justify-center  ">
+                        <h6 class="text-4xl font-black uppercase">List of Services</h6>
+                    </div>
+
+                    <div class="w-full mt-10 space-y-5">
+                        <!-- first section -->
+                        <div class="  flex- w-4/5 mx-auto space-y-5 md:space-y-0 justify-between items-start md:flex md:w-11/12 md:mx-auto md:space-x-4">
+                            <div class="space-y-3 h-full rounded-xl px-5 py-10 bg-slate-500 md:w-2/4 flex-col items-center mx-auto  justify-center text-2xl text-black">
+                               <div class=" py-10 px-10 w-2/5 bg-white rounded-full m-auto  ">
+                                <div class="">
+
+                                    <img class="w-full" src="img/LADY CLEANING.svg" alt="">
+                                </div>
+                                </div>
+
+
+                               <div class="flex mx-auto"> <a href="" class="text-center mx-auto font-xl uppercases">Deep cleaning</a></div>
+                            </div>
+                            <!-- end first -->
+                            
+                            <div class=" rounded-xl px-5 py-10 h-full bg-slate-500 md:w-2/4 flex- justify-start text-2xl text-black">
+                                <div class=" py-10 px-10 w-2/5 bg-white rounded-full m-auto  ">
+                                    <div class="">
+    
+                                        <img class="w-full" src="img/home-repair-painting-svgrepo-com.svg" alt="">
+                                    </div>
+                                </div>
+                                    <div class="mx-auto flex mt-3"> 
+                                        <a href="" class="text-center mx-auto font-xl uppercases">Office cleaning</a>
+                                    </div>
+                            </div>
+
+
+
+                            <!-- end second -->
+                            <div class=" rounded-xl px-5 py-10 h-full bg-slate-500 md:w-2/4  flex- justify-center text-2xl text-black">
+                              
+                                <div class=" py-10 px-10 w-2/5 bg-white rounded-full m-auto  ">
+                                    <div class="">
+    
+                                        <img class="w-full" src="img/construction.svg" alt="">
+                                    </div>
+                                </div>
+                                    <div class="mx-auto flex mt-3"> 
+                                        <a href="" class="text-center mx-auto font-xl uppercases">Post contruction Cleaning</a>
+                                    </div>
+                                </div>
+                        </div>
+                        <!-- second section -->
+
+                        <div class="  flex- w-4/5 mx-auto space-y-5 md:space-y-0 justify-between items-start md:flex md:w-11/12 md:mx-auto md:space-x-4">
+                            <div class="space-y-3 h-full rounded-xl px-5 py-10 bg-slate-500 md:w-2/4 flex-col items-center mx-auto  justify-center text-2xl text-black">
+                               <div class=" py-10 px-10 w-2/5 bg-white rounded-full m-auto  ">
+                                <div class="">
+
+                                    <img class="w-full" src="img/MOVE IN.svg" alt="">
+                                </div>
+                                </div>
+
+
+                               <div class="flex mx-auto"> <a href="" class="text-center mx-auto font-xl uppercases">Move IN/OUT Cleaning</a></div>
+                            </div>
+                            <!-- end first -->
+                            
+                            <div class=" rounded-xl h-full px-5 py-10 bg-slate-500 md:w-2/4 flex- justify-center text-2xl text-black">
+                                <div class=" py-10 px-10 w-2/5 bg-white rounded-full m-auto  ">
+                                    <div class="">
+    
+                                        <img class="w-full" src="img/PAINT.svg" alt="">
+                                    </div>
+                                </div>
+                                    <div class="mx-auto flex mt-3"> 
+                                        <a href="" class="text-center mx-auto font-xl uppercases">House and Commercial Painting</a>
+                                    </div>
+                            </div>
+
+
+
+                            <!-- end second -->
+                            <div class=" rounded-xl px-5 py-10 h-full bg-slate-500 md:w-2/4  flex- justify-center text-2xl text-black">
+                              
+                                <div class=" py-10 px-10 w-2/5 bg-white rounded-full m-auto  ">
+                                    <div class="">
+    
+                                        <img class="w-full" src="img/scraper.svg" alt="">
+                                    </div>
+                                </div>
+                                    <div class="mx-auto flex mt-3"> 
+                                        <a href="" class="text-center mx-auto font-xl uppercases">Stucco and Wallpaper Removal</a>
+                                    </div>
+                                </div>
+                        </div>
+
                     
                 </section>
+
+                 
+             
+                
+                
+                
+                
 </body>
 </html>
