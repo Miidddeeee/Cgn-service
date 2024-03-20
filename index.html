@@ -295,7 +295,7 @@
                             <img src="img/211620_b_right_arrow_icon.svg" class="w-7 h-7" alt="">
                         </div>
                     </div>
-                        <div class="w-full h-52 bg-gray-100 shadow-md rounded-xl p-4">
+                        <div class="w-full h-52 bg-gray-100 shadow-md rounded-xl p-4 overflow-auto top-0">
                             <img class="w-6 float-right" src="img/1534129544.svg" alt="">
                             <h2 id="name" class="font-bold">Humphrey Heather  </h2>
                             <img class="w-1/5 my-2 " src="img/16231558095-star-rating.svg" alt="">
@@ -319,25 +319,81 @@
                  
              <section class="contact">
 
-                <div class="w-4/5 mx-auto py-20 ">
+                <div class="w-4/5 mx-auto py-10 ">
                     <h2 class="text-3xl uppercase font-bold text-center">contact</h2>
-                    <form action="">
-                         <div class="flex justify-evenly items-center py-5  ">
-                            <input type="text" name="name" id="" placeholder="Enter your Firstname" class="w-5/12  p-1 h-10 mt-1 block px-3 py-2 bg-white border border-slate-300 rounded-md text-sm shadow-sm placeholder-slate-400
+                    <form action="" class=" md:space-y-4 space-y-4 py-5">
+                         <div class="lex- md:flex items-center md:space-x-10 md:justify-center md:space-y-0 space-y-4   ">
+                            <input type="text" name="name" id="" placeholder="Enter your Firstname" class="  w-4/5 md:w-2/4 mx-auto p-1 h-10  block px-3 py-2 bg-white border border-slate-300 rounded-md text-sm shadow-sm placeholder-slate-400
                             focus:outline-none focus:border-sky-500 focus:ring-1 focus:ring-sky-500
                             disabled:bg-slate-50 disabled:text-slate-500 disabled:border-slate-200 disabled:shadow-none
                             invalid:border-pink-500 invalid:text-pink-600
                             focus:invalid:border-pink-500 focus:invalid:ring-pink-500">
                            
-                            <input type="text" name="name" id="" placeholder="Enter your Lastname " class="w-5/12  p-1 h-10 mt-1 block px-3 py-2 bg-white border border-slate-300 rounded-md text-sm shadow-sm placeholder-slate-400
+                            <input type="text" name="name" id="" placeholder="Enter your Lastname " class="w-4/5 md:w-2/4 mx-auto p-1 h-10 block px-3 py-2 bg-white border border-slate-300 rounded-md text-sm shadow-sm placeholder-slate-400
                             focus:outline-none focus:border-sky-500 focus:ring-1 focus:ring-sky-500
                             disabled:bg-slate-50 disabled:text-slate-500 disabled:border-slate-200 disabled:shadow-none
                             invalid:border-pink-500 invalid:text-pink-600
                             focus:invalid:border-pink-500 focus:invalid:ring-pink-500">
                          </div>
 
+
+
+                         <div class="flex- md:flex items-center md:space-x-10 md:justify-center md:space-y-0 space-y-4   ">
+                            <input type="email" name="name" id="" placeholder="Enter your Email Address" class=" w-4/5 md:w-2/4 mx-auto p-1 h-10  block px-3 py-2 bg-white border border-slate-300 rounded-md text-sm shadow-sm placeholder-slate-400
+                            focus:outline-none focus:border-sky-500 focus:ring-1 focus:ring-sky-500
+                            disabled:bg-slate-50 disabled:text-slate-500 disabled:border-slate-200 disabled:shadow-none
+                            invalid:border-pink-500 invalid:text-pink-600
+                            focus:invalid:border-pink-500 focus:invalid:ring-pink-500">
+                           
+                            <input type="text" name="name" id="" placeholder="Enter your Phone Number" class="w-4/5 md:w-2/4 mx-auto p-1 h-10 block px-3 py-2 bg-white border border-slate-300 rounded-md text-sm shadow-sm placeholder-slate-400
+                            focus:outline-none focus:border-sky-500 focus:ring-1 focus:ring-sky-500
+                            disabled:bg-slate-50 disabled:text-slate-500 disabled:border-slate-200 disabled:shadow-none
+                            invalid:border-pink-500 invalid:text-pink-600
+                            focus:invalid:border-pink-500 focus:invalid:ring-pink-500">
+                         </div>
+                        <div class="w-4/5 md:w-full mx-auto  ">
+
+                            <textarea id="message" rows="4" class="block  p-2.5 w-full text-md  bg-white border border-slate-300 rounded-md text-sm shadow-sm placeholder-slate-400
+                            focus:outline-none focus:border-sky-500 focus:ring-1 focus:ring-sky-500
+                            disabled:bg-slate-50 disabled:text-slate-500 disabled:border-slate-200 disabled:shadow-none
+                            invalid:border-pink-500 invalid:text-pink-600
+                            focus:invalid:border-pink-500 focus:invalid:ring-pink-500" placeholder="How may we be of Assitant?"></textarea>
+                        </div>
+
+                            <div class=" w-full mx-autos ">
+                                <button type="submit" class="w-4/5 md:w-full mx-auto text-xl h-10 bg-gray-500 rounded-md">
+                                    Send
+                                </button>
+                            </div>
+                         
                     </form>
                 </div>
+                <footer class="bg-white rounded-lg shadow dark:bg-gray-900 m-4">
+                    <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
+                        <div class="sm:flex sm:items-center sm:justify-between">
+                            <a href="https://flowbite.com/" class="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
+                                <img src="img/SVG LOGO.svg" class="h-8" alt="Flowbite Logo" />
+                                <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">CGN Janitorial Service</span>
+                            </a>
+                            <ul class="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
+                                <li>
+                                    <a href="#" class="hover:underline me-4 md:me-6">About</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="hover:underline me-4 md:me-6">Services</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="hover:underline me-4 md:me-6">Testimonial</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="hover:underline">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+                        <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2024 <a href="https://flowbite.com/" class="hover:underline">CGN Janitorial Service</a>. All Rights Reserved.</span>
+                    </div>
+                </footer>
 
              </section>
                 
