@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width,  initial-scale=1.0">
     <title>CGN Janitorial Service</title>
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/manipulatecss.css">
     <link href="img/favicon.png" rel="icon" type="image/x-icon">
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <script src="index.js"></script>
@@ -31,13 +32,13 @@
     <!-- background -->
     <section class="h-screen md:h-full relative mx-auto landingpage border-b-yellow-600 border-b-8" id="">
         <!-- navbar    -->
-   <nav class="w-11/12 mx-auto pt-2">
+   <nav class="w-11/12 mx-auto pt-2 relative">
     <!-- flex items -->
     <div class="flex relative items-center justify-between">
         <!-- Logo -->
         <div class=" flex baseline">
           <a href="#home">
-              <img src="img/SVG LOGO.svg" alt="Logo" class="basline w-20 h-20"></a>
+              <img src="img/SVG LOGO.svg" alt="Logo" class="basline w-14 h-14 md:w-20 md:h-20"></a>
               <a href="#home" class=" hidden font-bold my-auto text-xl md:block">
                   <span class="text-white">CGN Janitorial Service</span>
                 </a>
@@ -54,7 +55,28 @@
         <div class="flex">
             <a href="tel:+14165791905" class="hidden lg:block p-3 px-8 baseline rounded-full bg-blue-700 text-white text-bold ">+1 (416) 579-1905</a>
         </div>
+
+        <!-- hamburger -->
+        <button id="menu-btn" class=" block hamburger lg:hidden focus:outline-none">
+            <span class="hamburger-top"></span>
+            <span class="hamburger-middle"></span>
+            <span class="hamburger-buttom"></span>
+        </button>
     </div>
+
+
+<!-- mobile menu -->
+
+    <div class="lg:hidden">
+        <div id="menu" class="absolute flex flex-col items-center hidden self-end py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md">
+            <a href="#home" class="hover:text-yellow-600 hover:underline">Home</a>
+            <a href="" class="hover:text-yellow-600 hover:underline">About us</a>
+            <a href="" class="hover:text-yellow-600 hover:underline">Services</a>
+            <a href="" class="hover:text-yellow-600 hover:underline">Testimonies</a>
+            <a href="" class="hover:text-yellow-600 hover:underline">Contact</a>
+        </div>
+    </div>
+
    </nav>
    <section class="addPadding mx-auto w-11/12 ">
 
