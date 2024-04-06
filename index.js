@@ -25,12 +25,5 @@ function updateDisplay() {
 // Initial display
 updateDisplay();
 
-var btn = document.getElementById('menu-btn');
-var menu = document.getElementById('menu');
-
-
-    btn.addEventListener('click', () =>{
-        btn.classList.toggle('open')
-    });
 
     

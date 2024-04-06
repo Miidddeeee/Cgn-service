@@ -37,3 +37,25 @@
 .open .hamburger-middle{
     display: none;
 }
+.menu{
+    background: rgb(7, 74, 183);
+    color: white;
+    overflow: hidden;
+    transform: translateY(-500px);
+    transition: transform 1s ease;
+    position: absolute;
+}
+.kik{
+    display: none;
+}
+.animate{
+    transform: translateY(0);
+}
+
+.lists{
+    display: flex;
+    flex-direction: column;
+}
+.textt{
+    font-size: 10px;
+}
