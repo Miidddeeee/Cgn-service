@@ -16,6 +16,7 @@ function navigate(direction) {
     updateDisplay();
 }
 
+
 function updateDisplay() {
     const currentMessage = messages[currentIndex];
     document.getElementById('name').textContent = currentMessage.name;
