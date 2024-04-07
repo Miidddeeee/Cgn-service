@@ -42,7 +42,7 @@
     color: white;
     overflow: hidden;
     transform: translateY(-500px);
-    transition: transform 1s ease;
+    transition: transform 0.5s ease;
     position: absolute;
 }
 .kik{
@@ -51,11 +51,14 @@
 .animate{
     transform: translateY(0);
 }
-
 .lists{
     display: flex;
     flex-direction: column;
 }
 .textt{
     font-size: 10px;
+}
+html{
+    scroll-behavior: smooth;
+    scroll-padding: -20rem;
 }
