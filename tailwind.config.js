@@ -14,6 +14,7 @@ module.exports = {
       },
       colors: {
         "transparenBlue": "rgba(33, 101, 227, 0.799)",
+        "top": "rgb(16, 49, 82)"
       },
     },
   },

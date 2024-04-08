@@ -4,6 +4,7 @@
     height: 26px;
     transition: all 0.25s;
     position: relative;
+    margin-top: -5px;
 }
 .hamburger-top,
 .hamburger-middle,
@@ -16,6 +17,7 @@
     background: white;    
     transform: rotate(0);
     transition: all 0.5s;
+    margin-top: 10px;
 }
 .hamburger-middle{
     transform: translateY(7px);
@@ -24,6 +26,7 @@
     transform: translateY(14px);
 }
 .open{
+    /* margin-top: 10px; */
     transform: rotate(90deg);
     transform: translate(0px);
 }
@@ -38,7 +41,7 @@
     display: none;
 }
 .menu{
-    background: rgb(7, 74, 183);
+    background: rgb(16, 49, 82);
     color: white;
     overflow: hidden;
     transform: translateY(-500px);
@@ -57,8 +60,20 @@
 }
 .textt{
     font-size: 10px;
+    margin: auto;   
+    overflow: hidden;
 }
 html{
     scroll-behavior: smooth;
-    scroll-padding: -20rem;
+    scroll-padding: 5rem;
+}
+.poppins{
+    font-family: "poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.roboto{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }

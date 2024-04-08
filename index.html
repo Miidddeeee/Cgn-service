@@ -10,12 +10,15 @@
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <script src="mhe.js"></script>
     <script src="index.js"></script>
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <style>
 
    .landingpage{
-    background: -webkit-linear-gradient(rgba(7, 74, 183, 0.683), rgba(8, 47, 109, 0.683)), url("img/heroImage low quality.jpg");
+    background: -webkit-linear-gradient(rgba(16, 49, 82, 0.801), rgba(16, 49, 82, 0.801)), url("img/heroImage low quality.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -34,15 +37,16 @@
     <!-- background -->
     <section class="h-screen md:h-full relative mx-auto landingpage border-b-yellow-600 border-b-8" id="home">
         <!-- navbar    -->
-   <nav class="w-11/12 mx-auto pt-2 relative">
+        <section class="fixed w-full bg-top shadow-2xl  ">
+   <nav class="w-11/12 mx-auto pt-4 pb-4 ">
     <!-- flex items -->
     <div class="flex relative items-center justify-between">
         <!-- Logo -->
         <div class=" flex baseline">
           <a href="#home">
-              <img src="img/SVG LOGO.svg" alt="Logo" class="basline w-14 h-14 md:w-20 md:h-20"></a>
+              <img src="img/SVG LOGO.svg" alt="Logo" class=" h-12 md:h-12 "></a>
               <a href="#home" class=" hidden font-bold my-auto text-xl md:block">
-                  <span class="text-white lg:text-md">CGN Janitorial Service</span>
+                  <span class="text-white ml-2 lg:text-md">CGN Janitorial Service</span>
                 </a>
             </a>
         </div>
@@ -55,7 +59,7 @@
         </div>
         <!-- nav number -->
         <div class="flex">
-            <a href="tel:+14379920106" class="hidden lg:block p-3 px-8 baseline rounded-full bg-blue-700 text-white text-bold text-sm">+1 (437) 992-0106</a>
+            <a href="tel:+14379920106" class="hidden cursor-pointer lg:block p-3 px-8 baseline rounded-full bg-yellow-600 text-top font-bold text-bold text-sm">+1 (437) 992-0106</a>
         </div>
 
         <!-- hamburger -->
@@ -84,14 +88,15 @@
                     <a href="https://wa.me/+14379920106"><svg class="w-5 clickable h-5 hover:w-7 hover:h-7 transition-all sm:w-2 sm:h-2 sm:hover:w-4 sm:hover:h-4" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M6.014 8.00613C6.12827 7.1024 7.30277 5.87414 8.23488 6.01043L8.23339 6.00894C9.14051 6.18132 9.85859 7.74261 10.2635 8.44465C10.5504 8.95402 10.3641 9.4701 10.0965 9.68787C9.7355 9.97883 9.17099 10.3803 9.28943 10.7834C9.5 11.5 12 14 13.2296 14.7107C13.695 14.9797 14.0325 14.2702 14.3207 13.9067C14.5301 13.6271 15.0466 13.46 15.5548 13.736C16.3138 14.178 17.0288 14.6917 17.69 15.27C18.0202 15.546 18.0977 15.9539 17.8689 16.385C17.4659 17.1443 16.3003 18.1456 15.4542 17.9421C13.9764 17.5868 8 15.27 6.08033 8.55801C5.97237 8.24048 5.99955 8.12044 6.014 8.00613Z" fill="#fff"></path> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 23C10.7764 23 10.0994 22.8687 9 22.5L6.89443 23.5528C5.56462 24.2177 4 23.2507 4 21.7639V19.5C1.84655 17.492 1 15.1767 1 12C1 5.92487 5.92487 1 12 1C18.0751 1 23 5.92487 23 12C23 18.0751 18.0751 23 12 23ZM6 18.6303L5.36395 18.0372C3.69087 16.4772 3 14.7331 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12C21 16.9706 16.9706 21 12 21C11.0143 21 10.552 20.911 9.63595 20.6038L8.84847 20.3397L6 21.7639V18.6303Z" fill="#fff"></path> </g></svg></a>
                     <a href="https://www.instagram.com/cgnjanitorial?utm_source=qr&igsh=dWo1Mmc4dHBocjU4"> <svg class="w-5 clickable h-5 hover:w-7 hover:h-7 transition-all sm:w-2 sm:h-2 sm:hover:w-4 sm:hover:h-4" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 18C15.3137 18 18 15.3137 18 12C18 8.68629 15.3137 6 12 6C8.68629 6 6 8.68629 6 12C6 15.3137 8.68629 18 12 18ZM12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16Z" fill="#fff" ></path> <path d="M18 5C17.4477 5 17 5.44772 17 6C17 6.55228 17.4477 7 18 7C18.5523 7 19 6.55228 19 6C19 5.44772 18.5523 5 18 5Z" fill="#fff"></path> <path fill-rule="evenodd" clip-rule="evenodd" d="M1.65396 4.27606C1 5.55953 1 7.23969 1 10.6V13.4C1 16.7603 1 18.4405 1.65396 19.7239C2.2292 20.8529 3.14708 21.7708 4.27606 22.346C5.55953 23 7.23969 23 10.6 23H13.4C16.7603 23 18.4405 23 19.7239 22.346C20.8529 21.7708 21.7708 20.8529 22.346 19.7239C23 18.4405 23 16.7603 23 13.4V10.6C23 7.23969 23 5.55953 22.346 4.27606C21.7708 3.14708 20.8529 2.2292 19.7239 1.65396C18.4405 1 16.7603 1 13.4 1H10.6C7.23969 1 5.55953 1 4.27606 1.65396C3.14708 2.2292 2.2292 3.14708 1.65396 4.27606ZM13.4 3H10.6C8.88684 3 7.72225 3.00156 6.82208 3.0751C5.94524 3.14674 5.49684 3.27659 5.18404 3.43597C4.43139 3.81947 3.81947 4.43139 3.43597 5.18404C3.27659 5.49684 3.14674 5.94524 3.0751 6.82208C3.00156 7.72225 3 8.88684 3 10.6V13.4C3 15.1132 3.00156 16.2777 3.0751 17.1779C3.14674 18.0548 3.27659 18.5032 3.43597 18.816C3.81947 19.5686 4.43139 20.1805 5.18404 20.564C5.49684 20.7234 5.94524 20.8533 6.82208 20.9249C7.72225 20.9984 8.88684 21 10.6 21H13.4C15.1132 21 16.2777 20.9984 17.1779 20.9249C18.0548 20.8533 18.5032 20.7234 18.816 20.564C19.5686 20.1805 20.1805 19.5686 20.564 18.816C20.7234 18.5032 20.8533 18.0548 20.9249 17.1779C20.9984 16.2777 21 15.1132 21 13.4V10.6C21 8.88684 20.9984 7.72225 20.9249 6.82208C20.8533 5.94524 20.7234 5.49684 20.564 5.18404C20.1805 4.43139 19.5686 3.81947 18.816 3.43597C18.5032 3.27659 18.0548 3.14674 17.1779 3.0751C16.2777 3.00156 15.1132 3 13.4 3Z" fill="#fff"></path> </g></svg></a>
                 </div>
-                <div class=" overflow-hidden justify-end">
-                    <a href="tel:+14379920106" class="textt p-3 px-3 bg-yellow-600 ">+1 (437) 992-0106</a>
+                <div class=" overflow-hidden justify-end items-center align-center">
+                    <a href="tel:+14379920106" class="textt bg-yellow-600 px-3 py-5 text-top">+1 (437) 992-0106</a>
                 </div>
             </div>
         </div>
     </div>
 
    </nav>
+</section>
    <section  class="addPadding mx-auto w-11/12 ">
 
    <div class=" w-full lg:w-3/5 text-center lg:text-left ">
@@ -104,14 +109,14 @@
     <div class=" text-white font-semibold">
         <h1>Amalgamation of experience, commitment, and expertise</h1>
     </div>
-    <div class=" my-6 w-1/3 mx-auto font-semibold py-2 baseline bg-yellow-600 lg:text-center lg:mx-0 ">
+    <div class=" my-6 w-1/3 mx-auto font-bold py-2 text-top poppins baseline bg-yellow-600 lg:text-center lg:mx-0 ">
         <a href="#contact">Book Now</a>
     </div>
    </div>
 </section>
     </section>
 <!-- about us page   -->
-<section id="about" class="bg-slate-200 relative pt-2 py-10">
+<section id="about" class="bg-slate-200 pt-2 py-10 poppins">
     <!-- <h6 class="text-9xl text-black stroke-1 text-transparent absolute" style="-webkit-text-stroke: 1px black; ">ABOUT US</h6> -->
     <div class="  flex- justify-center items-center w-11/12 mx-auto space-y-10 lg:flex lg:items-center lg:full py-10">
                 <div class=" flex-col lg:flex space-y-8 mx-auto w-11/12 lg:w-2/4  ">
@@ -168,7 +173,7 @@
                                     <h3 class="uppercase">luxury shine cleaners</h3>
                                 </div>
                                 <div class="">
-                                    <p> Where luxury meets cleanliness - indulge in our elite cleaning services.</p>
+                                    <p> Where luxury meets cleanliness-indulge in our elite cleaning services.</p>
                                 </div>
                         </div>
                         </div>
@@ -183,11 +188,11 @@
     </section>
     <!-- service page -->
 
-                <section id="service" class="w-11/12 mx-auto py-20">
+                <section id="service" class="w-11/12 mx-auto py-20 poppins">
                     <div class="">
                         <h1 class="text-4xl font-black">Services</h1>
                             <div class="border-b-yellow-600 border-b-4 w-20 mt-3"></div> 
-                            <div class="w-full lg:w-2/4 mt-4">
+                            <div class="w-full lg:w-2/4 mt-4 poppins">
                                 <p>Our janitorial services are designed to elevate your spaces, providing a spotless and welcoming environment for both residential and commercial clients.</p>
                             </div>
                     </div>
@@ -222,13 +227,13 @@
                        
                     </div>
                     <div class="class w11/12 mt-10 mx-auto flex justify-center ">
-                        <h6 class="text-4xl  uppercase">List of Services</h6>
+                        <h6 class="text-4xl  uppercase roboto">List of Services</h6>
                     </div>
 
-                    <div class="w-full mt-10 space-y-5">
+                    <div class="w-full mt-10 space-y-5 poppins">
                         <!-- first section -->
                         <div class="  flex- w-4/5 mx-auto space-y-5 md:space-y-0 justify-between items-start md:flex md:w-11/12 md:mx-auto md:space-x-4">
-                            <div class="space-y-3 h-full rounded-xl px-5 py-10 bg-slate-300 shadow-xl md:w-2/4 flex-col items-center mx-auto  justify-center text-2xl text-black">
+                            <div class="space-y-3 h-full rounded-xl px-5 py-10 bg-top shadow-xl md:w-2/4 flex-col items-center mx-auto  justify-center text-2xl text-black">
                                <div class=" py-10 px-10 w-2/5  lg:py-7 lg:px-7 lg:w-2/4 md:py-5 md:px-5 md:w-2/4  bg-white rounded-full m-auto  ">
                                 <div class="">
 
@@ -237,11 +242,11 @@
                                 </div>
 
 
-                               <div class="flex mx-auto"> <a href="" class="text-center mx-auto font-xl uppercases">Deep cleaning</a></div>
+                               <div class="flex mx-auto"> <a href="" class="text-center mx-auto font-xl uppercases text-white">Deep cleaning</a></div>
                             </div>
                             <!-- end first -->
                             
-                            <div class=" rounded-xl px-5 py-10 h-full bg-slate-300 shadow-xl     md:w-2/4 flex- justify-start text-2xl text-black">
+                            <div class=" rounded-xl px-5 py-10 h-full bg-top  shadow-xl     md:w-2/4 flex- justify-start text-2xl text-black">
                                 <div class="py-10 px-10 w-2/5  lg:py-7 lg:px-7 lg:w-2/4 md:py-5 md:px-5 md:w-2/4 bg-white rounded-full m-auto  ">
                                     <div class="">
     
@@ -249,14 +254,14 @@
                                     </div>
                                 </div>
                                     <div class="mx-auto flex mt-3"> 
-                                        <a href="" class="text-center mx-auto font-xl uppercases">Office cleaning</a>
+                                        <a href="" class="text-center mx-auto font-xl uppercases text-white">Office cleaning</a>
                                     </div>
                             </div>
 
 
 
                             <!-- end second -->
-                            <div class=" rounded-xl px-5 py-10 h-full bg-slate-300 shadow-xl md:w-2/4  flex- justify-center text-2xl text-black">
+                            <div class=" rounded-xl px-5 py-10 h-full bg-top shadow-xl md:w-2/4  flex- justify-center text-2xl text-black">
                               
                                 <div class=" py-10 px-10 w-2/5  lg:py-7 lg:px-7 lg:w-2/4 md:py-5 md:px-5 md:w-2/4 bg-white rounded-full m-auto  ">
                                     <div class="">
@@ -265,14 +270,14 @@
                                     </div>
                                 </div>
                                     <div class="mx-auto flex mt-3"> 
-                                        <a href="" class="text-center mx-auto font-xl uppercases">Post contruction Cleaning</a>
+                                        <a href="" class="text-center mx-auto font-xl uppercases text-white">Post contruction Cleaning</a>
                                     </div>
                                 </div>
                         </div>
                         <!-- second section -->
 
                         <div class="  flex- w-4/5 mx-auto space-y-5 md:space-y-0 justify-between items-start md:flex md:w-11/12 md:mx-auto md:space-x-4">
-                            <div class="space-y-3 h-full rounded-xl px-5 py-10 bg-slate-300 shadow-xl md:w-2/4 flex-col items-center mx-auto  justify-center text-2xl text-black">
+                            <div class="space-y-3 h-full rounded-xl px-5 py-10 bg-top shadow-xl md:w-2/4 flex-col items-center mx-auto  justify-center text-2xl text-black">
                                <div class=" py-10 px-10 w-2/5  lg:py-7 lg:px-7 lg:w-2/4 md:py-5 md:px-5 md:w-2/4 bg-white rounded-full m-auto  ">
                                 <div class="">
 
@@ -281,11 +286,11 @@
                                 </div>
 
 
-                               <div class="flex mx-auto"> <a href="" class="text-center mx-auto font-xl uppercases">Move IN/OUT Cleaning</a></div>
+                               <div class="flex mx-auto"> <a href="" class="text-center mx-auto font-xl uppercases text-white">Move IN/OUT Cleaning</a></div>
                             </div>
                             <!-- end first -->
                             
-                            <div class=" rounded-xl h-full px-5 py-10 bg-slate-300 shadow-xl md:w-2/4 flex- justify-center text-2xl text-black">
+                            <div class=" rounded-xl h-full px-5 py-10 bg-top shadow-xl md:w-2/4 flex- justify-center text-2xl text-black">
                                 <div class="py-10 px-10 w-2/5  lg:py-7 lg:px-7 lg:w-2/4 md:py-5 md:px-5 md:w-2/4 bg-white rounded-full m-auto  ">
                                     <div class="">
     
@@ -293,14 +298,14 @@
                                     </div>
                                 </div>
                                     <div class="mx-auto flex mt-3"> 
-                                        <a href="" class="text-center mx-auto font-xl uppercases">House and Commercial Painting</a>
+                                        <a href="" class="text-center mx-auto font-xl uppercases text-white">House and Commercial Painting</a>
                                     </div>
                             </div>
 
 
 
                             <!-- end second -->
-                            <div class="rounded-xl px-5 py-10 h-full bg-slate-300 shadow-xl  md:w-2/4  flex- justify-center text-2xl text-black">
+                            <div class="rounded-xl px-5 py-10 h-full bg-top shadow-xl  md:w-2/4  flex- justify-center text-2xl text-black">
                               
                                 <div class="py-10 px-10 w-2/5  lg:py-7 lg:px-7 lg:w-2/4 md:py-5 md:px-5 md:w-2/4 bg-white rounded-full m-auto  ">
                                     <div class="">
@@ -309,14 +314,14 @@
                                     </div>
                                 </div>
                                     <div class="mx-auto flex mt-3">     
-                                        <a href="" class="text-center mx-auto font-xl uppercases">Stucco and Wallpaper Removal</a>
+                                        <a href="" class="text-center mx-auto font-xl uppercases text-white ">Stucco and Wallpaper Removal</a>
                                     </div>
                                 </div>
                         </div>
                 </section>
                 <!-- testimony section -->
 
- <section id="testimony" class="testimony bg-blue-900 ">
+ <section id="testimony" class="testimony bg-top ">
     <div class="mx-auto py-10 w-4/5 lg:w-full ">
         <div class="flex- lg:flex items-center   justify-evenly ">
                 <!-- first side -->
@@ -353,7 +358,7 @@
 </div>
  </section>
                  
-             <section id="contact" class="contact">
+             <section id="contact" class="contact poppins">
 
                 <div class="w-4/5 mx-auto py-10 ">
                     <h2 class="text-4xl uppercase font-bold text-center">contact</h2>

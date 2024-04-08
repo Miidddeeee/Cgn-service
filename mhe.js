@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
     function myFunction() {
         btn.classList.toggle('open');
         menu.classList.toggle('animate');
-        lists.classList.toggle('flex');
+        // lists.classList.toggle('flex');  
     }
 
     buts.forEach(element => {
